@@ -66,7 +66,7 @@ function App() {
                 <Form.Field className="ui action input">
                   <Input
                     type="text"
-                    maxLength={50}
+                    maxLength={40}
                     value={task}
                     onChange={handleInputChange}
                   />
