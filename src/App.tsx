@@ -5,7 +5,6 @@ import { v4 as uuidv4 } from "uuid";
 import { Button, Card, Form, Icon, Input, Segment } from "semantic-ui-react";
 
 function App() {
-  
   const [task, setTask] = useState("");
   const [isReversed, setIsReversed] = useState(false);
   const [todoItem, setTodoArray] = useState<TodoDto[]>([]);
@@ -46,7 +45,7 @@ function App() {
     if (isReversed) {
       return "blue";
     } else {
-      return "pink"; 
+      return "pink";
     }
   };
 
